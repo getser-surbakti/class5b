@@ -75,9 +75,9 @@ export default function Home() {
       {step === 4 && (
         <div style={styles.card}>
           {answer === "yes" ? (
-            <h2>Good job "👍"{name}! </h2>
+            <h2>Good job 👍{name}! </h2>
           ) : (
-            <h2>Hmmm  "😡", remember to study {name}!</h2>
+            <h2>Hmmm  😡, remember to study {name}!</h2>
           )}
         </div>
       )}
