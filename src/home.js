@@ -23,7 +23,7 @@ export default function Home() {
     <div style={styles.container}>
       {step === 1 && (
         <div style={styles.card}>
-          <h1>Welcome, student!</h1>
+          <h1>Welcome, 5B student!</h1>
           <input
             type="text"
             placeholder="Enter your name"
@@ -75,9 +75,9 @@ export default function Home() {
       {step === 4 && (
         <div style={styles.card}>
           {answer === "yes" ? (
-            <h2>Good job {name}!</h2>
+            <h2>Good job "👍"{name}! </h2>
           ) : (
-            <h2>Hmmm, remember to study {name}.</h2>
+            <h2>Hmmm  "😡", remember to study {name}!</h2>
           )}
         </div>
       )}
